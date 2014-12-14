@@ -1,0 +1,11 @@
+<project name="wpattern-frameworks-spring-mvc" default="hot-deploy">
+
+	<property environment="env" />
+
+	<target name="hot-deploy">
+		<copy todir="target/wpattern-frameworks-spring-mvc-0.0.1-SNAPSHOT">
+			<fileset dir="src/main/webapp/" />
+		</copy>
+	</target>
+
+</project>
